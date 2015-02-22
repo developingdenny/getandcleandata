@@ -3,7 +3,7 @@ Provides a script to produce tidy data set from data captured during a Human Act
 
 The Human Activity Recognition project collected accelerometer data from a Samsung Galaxy S smartphone.  Full information regarding the project can be found at:
  
-(http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones "Human Activity Recognition Project")
+[Human Activity Recognition Project](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones] "Human Activity Recognition Project")
 
 # Source data
 
