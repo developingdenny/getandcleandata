@@ -1,0 +1,108 @@
+Data Description 
+=================
+
+The data points for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag. (Note the 'f' to indicate frequency domain signals). 
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+
+
+The set of variables that were estimated from these signals are: 
+
+ActivityId: An integer code to represent 1 of 6 possible activities.
+SubjectId: A integer identifier for each of the 30 subjects from whom data was sampled.
+Avg(): Average value.
+StdDev(): Standard deviation value.
+ActivityLable: A string representing 1 of 6 possible activities; this text corresponds to the ActivityId for the record.
+
+The complete list of variables of each data point follows:
+ 
+[1]  "ActivityId"                    
+[2]  "SubjectId"                     
+[3]  "tBodyAcc-Avg()-X"              
+[4]  "tBodyAcc-Avg()-Y"             
+[5]  "tBodyAcc-Avg()-Z"              
+[6]  "tGravityAcc-Avg()-X"           
+[7]  "tGravityAcc-Avg()-Y"           
+[8]  "tGravityAcc-Avg()-Z"          
+[9]  "tBodyAccJerk-Avg()-X"          
+[10]  "tBodyAccJerk-Avg()-Y"          
+[11]  "tBodyAccJerk-Avg()-Z"          
+[12]  "tBodyGyro-Avg()-X"            
+[13]  "tBodyGyro-Avg()-Y"             
+[14]  "tBodyGyro-Avg()-Z"             
+[15]  "tBodyGyroJerk-Avg()-X"         
+[16]  "tBodyGyroJerk-Avg()-Y"        
+[17]  "tBodyGyroJerk-Avg()-Z"         
+[18]  "tBodyAccMag-Avg()"             
+[19]  "tGravityAccMag-Avg()"          
+[20]  "tBodyAccJerkMag-Avg()"        
+[21]  "tBodyGyroMag-Avg()"            
+[22]  "tBodyGyroJerkMag-Avg()"        
+[23]  "fBodyAcc-Avg()-X"              
+[24]  "fBodyAcc-Avg()-Y"             
+[25]  "fBodyAcc-Avg()-Z"             
+[26]  "fBodyAccJerk-Avg()-X"         
+[27]  "fBodyAccJerk-Avg()-Y"         
+[28]  "fBodyAccJerk-Avg()-Z"         
+[29]  "fBodyGyro-Avg()-X"            
+[30]  "fBodyGyro-Avg()-Y"            
+[31]  "fBodyGyro-Avg()-Z"            
+[32]  "fBodyAccMag-Avg()"            
+[33]  "fBodyBodyAccJerkMag-Avg()"    
+[34]  "fBodyBodyGyroMag-Avg()"       
+[35]  "fBodyBodyGyroJerkMag-Avg()"   
+[36]  "tBodyAcc-StdDev()-X"          
+[37]  "tBodyAcc-StdDev()-Y"          
+[38]  "tBodyAcc-StdDev()-Z"          
+[39]  "tGravityAcc-StdDev()-X"       
+[40]  "tGravityAcc-StdDev()-Y"       
+[41]  "tGravityAcc-StdDev()-Z"       
+[42]  "tBodyAccJerk-StdDev()-X"      
+[43]  "tBodyAccJerk-StdDev()-Y"      
+[44]  "tBodyAccJerk-StdDev()-Z"      
+[45]  "tBodyGyro-StdDev()-X"         
+[46]  "tBodyGyro-StdDev()-Y"         
+[47]  "tBodyGyro-StdDev()-Z"         
+[48]  "tBodyGyroJerk-StdDev()-X"     
+[49]  "tBodyGyroJerk-StdDev()-Y"     
+[50]  "tBodyGyroJerk-StdDev()-Z"     
+[51]  "tBodyAccMag-StdDev()"         
+[52]  "tGravityAccMag-StdDev()"      
+[53]  "tBodyAccJerkMag-StdDev()"     
+[54]  "tBodyGyroMag-StdDev()"        
+[55]  "tBodyGyroJerkMag-StdDev()"    
+[56]  "fBodyAcc-StdDev()-X"          
+[57]  "fBodyAcc-StdDev()-Y"          
+[58]  "fBodyAcc-StdDev()-Z"          
+[59]  "fBodyAccJerk-StdDev()-X"      
+[60]  "fBodyAccJerk-StdDev()-Y"      
+[61]  "fBodyAccJerk-StdDev()-Z"      
+[62]  "fBodyGyro-StdDev()-X"         
+[63]  "fBodyGyro-StdDev()-Y"         
+[64]  "fBodyGyro-StdDev()-Z"         
+[65]  "fBodyAccMag-StdDev()"         
+[66]  "fBodyBodyAccJerkMag-StdDev()" 
+[67]  "fBodyBodyGyroMag-StdDev()"    
+[68]  "fBodyBodyGyroJerkMag-StdDev()"
+[69]  "ActivityLabel"                
