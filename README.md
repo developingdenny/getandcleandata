@@ -8,7 +8,7 @@ The Human Activity Recognition project collected accelerometer data from a Samsu
 # Source data
 
 Available at: 
-(https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Compressed source data.)
+[Source Data Files](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "Compressed source data")
 
 # Contents
 
