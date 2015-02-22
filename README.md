@@ -12,7 +12,7 @@ Available at:
 
 # Contents
 
-run_analysis.R: a script that converts the files
+run_analysis.R: a script that converts the source data files into a tidy data set providing just mean and standard deviation measurements along with Activity labels for improved legibility.
 
 
 # Usage
